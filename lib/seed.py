@@ -13,8 +13,8 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    session.query(Game).delete()
-    session.query(Review).delete()
+    #session.query(Game).delete()
+    #session.query(Review).delete()
 
     fake = Faker()
 
